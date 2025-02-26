@@ -1,0 +1,13 @@
+### send application
+
+POST http://localhost:8181/api/v1/apply
+Content-Type: application/json
+
+{
+  "name": "Farhad",
+  "email": "farhad.szd@gmail.com",
+  "phone": "+998935555555",
+  "message": "I want to apply for this job",
+  "tgHandle": "@farhad",
+  "tags": ["tag1", "tag2"]
+}

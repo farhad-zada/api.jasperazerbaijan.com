@@ -1,0 +1,20 @@
+{
+    "watch": [
+        "controllers/*",
+        "utils/*",
+        "routes/*",
+        "models/*",
+        "node_modules/*",
+        "app.js",
+        "index.js",
+        "config.js",
+        "middlewares/*",
+        "nodemon.json",
+        "telegram/*"
+    ],
+    "ignore": [
+        "logs/*",
+        "telegram/trusted.json"
+    ],
+    "exec": "node index.js"
+}
