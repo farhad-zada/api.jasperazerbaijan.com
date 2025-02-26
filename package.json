@@ -1,16 +1,12 @@
 {
-  "name": "shop.baristica.az",
+  "name": "api.jasperazerbaijan.az",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node index.js",
     "dev": "NODE_ENV=development nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "upload": "node scripts/upload.js",
-    "resize": "node scripts/resizeImages.js",
-    "fetch": "node scripts/imagesFromDrive.js",
-    "update-coffee-fields": "node commands/updateCoffeeFields.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
